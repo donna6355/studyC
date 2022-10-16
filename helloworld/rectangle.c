@@ -2,6 +2,16 @@
 
 int main()
 {
+
+    /*
+    Format Specifier
+    int : %d, %i,
+    float : %f, 
+    double : %e, %g,
+    char : %c,
+    bool : %i,
+
+    */
     double width = 10.20432;
     double height = 15.03123;
     double perimeter = (width+height)*2;
