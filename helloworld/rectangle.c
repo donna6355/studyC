@@ -11,7 +11,7 @@ int main()
     printf("area is %f\n", area);
 
     enum company{
-        GOOGLE, FACEBOOK, XEROX, YAHOO, EBAY, MICROSOFT,
+        GOOGLE, FACEBOOK, XEROX, YAHOO =10 , EBAY, MICROSOFT,
     };
     enum company xerox = XEROX;
     enum company google = GOOGLE;
@@ -19,6 +19,6 @@ int main()
 
     printf("The value of xerox is %d\n",xerox);
     printf("The value of google is %d\n",google);
-    printf("The value of ebay is %d\n",ebay);
+    printf("The value of ebay is %d\n",ebay); //assign specific int then the following value will be assigned. 11!
     return 0;
 }
